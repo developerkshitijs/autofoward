@@ -74,7 +74,7 @@ async def pub_(bot, message):
                         ]]
                         reply_markup = InlineKeyboardMarkup(buttons)
                         await m.edit_text(
-                            text=f'<b><u>FORWARD STATUS</b></u>\n\n<b>Succefully forwarded file count :</b> <code>{total_files} files</code>',
+                            text=f'<b><u>FORWARD STATUS</b></u>\n\n<b>🤖Succefully forwarded file count📥 :</b>  <code>{total_files} files</code>',
                             reply_markup=reply_markup, 
                             parse_mode="html"
                         )
@@ -84,9 +84,10 @@ async def pub_(bot, message):
                 await m.edit_text(f'Error: {e}')
             else:
                 buttons = [[
-                    InlineKeyboardButton('📜 Support Group', url='https://t.me/BETA_BOTSUPPORT')
+                    InlineKeyboardButton('📜 Support Group', url='https://t.me/riot8')
                     ],[
-                    InlineKeyboardButton('📡 Update Channel', url='https://t.me/BETA_UPDATES')
+                    InlineKeyboardButton('📡 Update Channel', url='https://t.me/chochonder')
+                                      
                 ]]
                 reply_markup = InlineKeyboardMarkup(buttons)
                 await m.edit_text(
