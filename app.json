@@ -9,9 +9,9 @@
     "forward",
     "bot"
   ],
-  "success_url": "https://t.me/developersh",
-  "website": "https://github.com/developershh",
-  "repository": "https://github.com/developershh",
+  "success_url": "https://t.me/developershdd",
+  "website": "https://github.com/developershhdd",
+  "repository": "https://github.com/developershhdd",
   "env": {
     "API_ID": {
       "description": "Get this value from https://my.telegram.org or @UseTGSBot",
